@@ -2,6 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 
+"""
+Known issues: date mismatch on graph
+"""
 
 def graph_test_compare(list):
     with open('sp500_joined_closes.csv', 'r') as f:
